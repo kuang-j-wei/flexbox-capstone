@@ -89,3 +89,61 @@ a {
     border: none;
     border-radius: 8px;
 }
+
+.core-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.core-content .info-header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.core-content .info-header .title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 24px;
+    /* border: dotted; */
+}
+
+.core-content .info-header .cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 24px;
+    /* border: dotted; */
+}
+
+.core-content .info-header .cards-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    justify-content: space-between;
+    /* border: solid; */
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 10px;
+    text-align: center;
+}
+
+.core-content .info-header .cards-container .card .img-frame {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: solid #3882f6;
+    flex-shrink: 0;
+}
+
+
+.core-content .quote-container {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: "light italic";
+}
