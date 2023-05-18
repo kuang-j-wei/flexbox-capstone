@@ -8,10 +8,19 @@ body {
 
 .header {
     display: flex;
+    flex-direction: column;
     background-color: #1F2937;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* gap: 150px 100px; */
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.banner {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 100px;
 }
 
 .header .logo {
@@ -37,42 +46,42 @@ a {
     margin-left: 16px;
 }
 
-/* TODO: Merge entire header with top-content into one containre*/
-.top-content {
-    /* border: dotted; */
+.header-content {
     display: flex;
-    padding: 150px 100px;
     background-color: #1F2937;
     gap: 20px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    justify-content: space-between;
 }
 
-.top-content .content-text {
+.header-content .content-text {
     flex: 1;
 }
 
-.top-content .main-title {
+.header-content .main-title {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
     margin-bottom: 10px;
 }
 
-.top-content .subtext {
+.header-content .subtext {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 10px;
 }
 
-.top-content .content-img {
+.header-content .content-img {
     background-color: gray;
     display: flex;
-    flex: 1;
     justify-content: center;
     align-items: center;
-    color: #E5E7EB
+    color: #E5E7EB;
+    flex: 1;
 }
 
-.top-content button {
+.header-content button {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 6px 24px;
