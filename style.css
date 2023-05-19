@@ -142,8 +142,12 @@ a {
 
 
 .core-content .quote-container {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
     font-style: "light italic";
-}
+    padding: 188px 188px;
+    flex: 1;
+\}
