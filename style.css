@@ -115,6 +115,7 @@ a {
     justify-content: space-between;
     gap: 20px;
     border: dotted;
+    margin-bottom: 64px;
 }
 
 .cards-container .card {
@@ -179,4 +180,13 @@ a {
     color: #E5E7EB;
     padding: 4px 20px;
     font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
