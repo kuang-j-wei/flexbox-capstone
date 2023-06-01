@@ -56,6 +56,7 @@ ul li a {
 
 .header-content .content-text {
     flex: 1;
+    align-self: center;
 }
 
 .header-content .main-title {
@@ -72,7 +73,7 @@ ul li a {
 }
 
 .header-content .content-img {
-    flex-basis: 350px;
+    flex-basis: 35%;
 }
 
 .header-content .content-img img {
