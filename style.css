@@ -51,7 +51,8 @@ ul li a {
     gap: 20px;
     padding-top: 64px;
     padding-bottom: 64px;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .header-content .content-text {
@@ -74,6 +75,7 @@ ul li a {
 
 .header-content .content-img {
     flex-basis: 35%;
+    min-width: 280px;
 }
 
 .header-content .content-img img {
@@ -184,6 +186,7 @@ ul li a {
     padding: 32px 64px;
     color: #F9FAF8;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .action-title {
